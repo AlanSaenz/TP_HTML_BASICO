@@ -10,7 +10,8 @@
 <body>
     <header>
         <nav>
-            <img style="width: 40px; height: 40px;" id="logoNav" src="imagenes/logo.jpg" alt="Logo" >
+            <img style="width: 55px; height: 55px;" id="logoNav" src="imagenes/logo.jpg" alt="Logo" >
+            <h3>Nombre Clinica</h3>
             <a href="">Servicios</a>
             <a href="">Laboratorio</a>
             <a href="">Profesionales</a>
@@ -20,7 +21,7 @@
     </header>
 
     <article>
-        <img src="" alt="Banner">
+        <img src="imagenes/banner.jpg" alt="Banner">
         <p>Texto sobre de imagen</p>
     </article>
 
@@ -221,14 +222,69 @@
     </section>
 
     <aside>
-        <h1>Contacto de lado derecho...</h1>
+        <h1>Medio de consulta</h1>
+        <p>Podra enviar su consulta por este medio y sera respondido por su numero telefonico</p>
         <form action="">
+            <h4>Nombre completo</h4>
+            <input type="text" placeholder="Nombre completo">
 
+            <h4>Telefono</h4>
+            <input type="text" placeholder="Numero de Contacto">
+            
+            <h4>Motivo</h4>
+            <label>
+                <input type="radio" name="opciones" value="opcion1">
+                Opcion 1
+            </label>
+            
+            <label>
+                <input type="radio" name="opciones" value="opcion2">
+                Opcion 2
+            </label>
+
+            <label>
+                <input type="radio" name="opciones" value="opcion3">
+                Opcion 3
+            </label>
+
+            <label>
+                <input type="radio" name="opciones" value="opcion4">
+                Opcion 4
+            </label>
+
+            <h4>Descripcion</h4>
+            <input type="text" placeholder="Descripcion">
+
+            <input type="submit" placeholder="Enviar">
         </form>
     </aside>
 
     <footer>
-        <h1>Footer</h1>
+
+        <div class="contenedor">
+
+            <div class="foot">
+              <h3>Contáctanos</h3>
+              <p>Teléfono: XXXX-XXXX</p>
+              <p>Correo electrónico: info@clinica.com</p>
+              <p>Dirección: #XXX, Rio Grande, Argentina</p>
+            </div>
+
+            <div class="foot">
+              <h3>Síguenos en las redes sociales</h3>
+              <ul>
+                <li><a href="#">Facebook<i class="Red-social"></i></a></li>
+                <li><a href="#">Instagram<i class="Red-social"></i></a></li>
+                <li><a href="#">Youtube<i class="Red-social"></i></a></li>
+              </ul>
+            </div>
+
+            <div id="copy">
+                <p>© 2023 Clínica xx. Todos los derechos reservados.</p>
+            </div>
+
+        </div>        
     </footer>
+
 </body>
 </html>
