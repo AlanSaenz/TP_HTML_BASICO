@@ -6,26 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica X</title>
 
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <header>
         <nav>
-            <img style="width: 55px; height: 55px;" id="logoNav" src="imagenes/logo.jpg" alt="Logo" >
-            <h3>Nombre Clinica</h3>
-            <a href="">Servicios</a>
-            <a href="">Laboratorio</a>
-            <a href="">Profesionales</a>
-            <a href="">Turnos</a>
-            <a href="">Contacto</a>
+            <ul>
+                <li><img id="logoNav" src="imagenes/logo.png" alt="Logo" ></li>
+                <li><h3 id="nombreClinica">Nombre Clinica</h3></li>
+                <li class="linkNav"><a href="#servicios">Servicios</a></li>
+                <li class="linkNav"><a href="#laboratorio">Laboratorio</a></li>
+                <li class="linkNav"><a href="#profesionales">Profesionales</a></li>
+                <li class="linkNav"><a href="#turnos">Turnos</a></li>
+                <li class="linkNav"><a href="#consulta">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
-    <article>
-        <img src="imagenes/banner.jpg" alt="Banner">
-        <p>Cuidamos de ti y de tu salud en todo momento. Bienvenidos a nuestra clínica médica, donde nuestro objetivo es brindarte la mejor atención y cuidado personalizado para mejorar tu bienestar y calidad de vida.</p>
+    <article id="banner">
+        <img id="imgBanner" src="imagenes/banner2-largo.jpg" alt="Banner">
+        <p id="textBanner">Cuidamos de ti y de tu salud en todo momento. Bienvenidos a nuestra clínica médica.</p>
     </article>
 
-    <section>
+    <section id="servicios">
         <h1>Servicios</h1>
         <table style="border:1px solid black;">
             <tr>
@@ -85,7 +88,7 @@
         </table>
     </section>
 
-    <section>
+    <section id="laboratorio">
         <h1>Laboratorio</h1>
         <div>
             <table>
@@ -119,7 +122,7 @@
 
     </section>
 
-    <section>
+    <section id="profesionales">
         <h1>Profesionales</h1>
         
         <aside>
@@ -165,7 +168,7 @@
 
     </section>
 
-    <section>
+    <section id="turnos">
         <h1>Turnos</h1>
         <table>
             <tr>
@@ -221,7 +224,7 @@
         </table>
     </section>
 
-    <aside>
+    <aside id="consulta">
         <h1>Medio de consulta</h1>
         <p>Podra enviar su consulta por este medio y sera respondido por su numero telefonico</p>
         <form action="">
@@ -260,7 +263,6 @@
     </aside>
 
     <footer>
-
         <div class="contenedor">
 
             <div class="foot">
